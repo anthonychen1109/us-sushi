@@ -4,7 +4,7 @@ import Location from './location';
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id="contact">
 
       <div className="hours">
         <h4>Hours</h4>
