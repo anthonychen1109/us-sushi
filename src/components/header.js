@@ -6,6 +6,8 @@ import NavBar from './navbar';
 const Header = () => {
   return (
     <div>
+      <NavBar />
+      
       <div className="header">
 
         <div className='header-logo'>
@@ -22,9 +24,6 @@ const Header = () => {
         </div>
 
       </div>
-
-      <NavBar />
-      
   </div>
   )
 }
